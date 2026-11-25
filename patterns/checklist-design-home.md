@@ -123,7 +123,7 @@ background: none; border: 0; cursor: pointer; font-family: inherit; padding: 6px
 /* hero：h1 60/66/600/−3%，副文案 16/20.8/dark/50 */
 .hero { text-align: center;}
 .hero h1 { font-size: 60px; line-height: 66px; font-weight: 600; letter-spacing: -.03em;}
-.hero.sub { max-width: 448px; margin: 0 auto; font-size: 16px;
+.hero .sub { max-width: 448px; margin: 0 auto; font-size: 16px;
 line-height: 20.8px; color: var(--dark-50);}
 
 /* 分类面板：radius 24 + padding 40 + gap 24；圆角三档 12/16/24，非同心圆角 */
@@ -140,14 +140,14 @@ background: rgba(38,33,28,.1); padding: 4px 10px; border-radius: 12px;}
 
 /* 清单药丸：白 70%、radius 16、padding 12/16、图标 20、gap 12；hover 纯白 + scale 1.04 */
 .pills { display: flex; flex-wrap: wrap; gap: 8px;}
-.pill-motion { transition: transform.15s var(--ease);}
+.pill-motion { transition: transform 0.15s var(--ease);}
 .pill-motion:hover { transform: scale(1.04);}
 .pill-motion:active { transform: scale(.98);}
 .pill { display: inline-flex; align-items: center; gap: 12px;
 padding: 12px 16px; border-radius: 16px;
 background: rgba(255,255,255,.7); color: var(--dark);
 font-size: 16px; line-height: 24px;
-transition: background-color.15s var(--ease);}
+transition: background-color 0.15s var(--ease);}
 .pill:hover { background: #fff;}
 
 /* 搜索区：h2 36/39.6/600/−3%；搜索行 max-width 460px */
@@ -157,11 +157,11 @@ transition: background-color.15s var(--ease);}
 .search-trigger { width: 460px; max-width: 100%; display: flex; align-items: center; gap: 12px;
 padding: 12px 16px; border: 0; border-radius: 12px; background: rgba(0,0,0,.06);
 font-size: 16px; color: var(--dark-70); cursor: pointer;
-transition: background-color.15s var(--ease);}
+transition: background-color 0.15s var(--ease);}
 .search-trigger:hover { background: rgba(0,0,0,.08);}
 .refresh { width: 48px; height: 48px; border: 0; border-radius: 12px;
 background: rgba(0,0,0,.06); color: var(--dark-40); cursor: pointer;
-transition: background-color.15s var(--ease), transform.15s var(--ease);}
+transition: background-color 0.15s var(--ease), transform 0.15s var(--ease);}
 .refresh:hover { background: rgba(0,0,0,.1); color: var(--dark-70); transform: scale(1.05);}
 .refresh:active { transform: scale(.95);}
 
@@ -214,7 +214,7 @@ display: flex; align-items: center; gap: 12px; padding: 16px 20px;}
 box-shadow: 0 8px 32px rgba(0,0,0,.12); overflow: hidden; display: none; padding: 8px 0;}
 .overlay-row { display: flex; align-items: center; gap: 12px; padding: 8px 16px;
 margin: 0 8px; border-radius: 12px; font-size: 16px;
-transition: background-color.1s var(--ease);}
+transition: background-color 0.1s var(--ease);}
 .overlay-row:hover { background: rgba(0,0,0,.06);}
 .overlay-row.active { background: rgba(0,0,0,.08);}
 </style>

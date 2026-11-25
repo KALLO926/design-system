@@ -90,12 +90,12 @@ transition: background-color 0.15s ease;
 .switch:focus-visible {
 outline: 2px solid var(--ink); outline-offset: 2px;
 }
-.switch.thumb {
+.switch .thumb {
 width: 14px; height: 14px; border-radius: 0;
 background: var(--ink);
 transition: translate 0.15s ease, background-color 0.15s ease;
 }
-.switch[data-checked].thumb { translate: 16px 0; background: #fff;}
+.switch[data-checked] .thumb { translate: 16px 0; background: #fff;}
 
 @media (prefers-color-scheme: dark) {
 body { background: var(--ink); color: #fff;}
@@ -103,8 +103,8 @@ figcaption { color: #aaa;}
 .switch { border-color: #fff; background: var(--ink);}
 .switch[data-checked] { background: #fff;}
 .switch:focus-visible { outline-color: #fff;}
-.switch.thumb { background: #fff;}
-.switch[data-checked].thumb { background: var(--ink);}
+.switch .thumb { background: #fff;}
+.switch[data-checked] .thumb { background: var(--ink);}
 }
 </style>
 </head>
