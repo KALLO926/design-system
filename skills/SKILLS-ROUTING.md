@@ -24,6 +24,7 @@
 | `unslop`（完整 9-pass） | 去 AI 味专项改造 | 点名触发；不覆盖契约配色与单文件中文系统栈规则 |
 | `impeccable`（全命令模式） | 后台/重构/多模式专项 | 仅在点名或 Operate/Read 类复杂重设计时按需调子命令 |
 | `gsap` | 复杂滚动/时间轴动效实现 | 点名触发；须遵守契约“全站唯一缓动性格”与 `prefers-reduced-motion` |
+| `emil-motion` | Emil 动效组，**已合并（9 合 1，点名参考）** | 场景路由见其 `SKILL.md`；原 9 个技能全文存 `references/`；须遵守契约“全站唯一缓动性格”与 `prefers-reduced-motion` |
 | `yu-apple-design` | 宇苹果风格网页参考包 | 点名触发 |
 | `claude-skill-web-clone` | 网站复刻专项 | 点名触发 |
 | `local-anatomy` | 术语/机制交互式等距解释图 | 专项讲解任务触发 |
@@ -37,5 +38,4 @@
 | `taste-skill` | **移出常驻（降级为文案参考）** | 与契约存在 4 处正面冲突（`One section per screen` 诱发 PPT、`sand\|sky\|sage` 踩颜色禁令、随机发牌剥夺方向权、`Stop` Hook 强拦）；禁用其 `Stop` Hook，仅按需查阅 `copy-lint`/`copy-voice` |
 | `ui-ux-pro-max` | **移出常驻（降级为点名查词典）** | 两次配色品味翻车；禁用 `--design-system` 与 `MASTER.md` 生成，仅按需查 `--domain ux/chart/icons`；不采纳其“禁 0ms 切换”条 |
 | `web-design-guidelines` | **已由 `better-interface` 吸收（备查）** | 与 `better-interface` 重合 >70%；原 `SKILL.md` 强拉 GitHub 远端且要求 `Title Case` 冲突；已并入后段审查 |
-| `local_self_hosted_fonts` | **标记待清退（DEPRECATED）** | 强令打包全量中文字体与契约“单文件 `.html` 中文降级系统栈”正面相反，且残留 `/opt/muse/` 废话；由契约＋机检替代 |
-| Emil 动效组（本地 9 目录） | **建议 9 合 1 → `emil-motion`** | 参照 `gsap` 结构收敛为单一入口＋`references/`，减少路由索引噪声 |
+| `local_self_hosted_fonts` | **已清退** | 强令打包全量中文字体与契约“单文件 `.html` 中文降级系统栈”正面相反，且残留 `/opt/muse/` 废话；由契约＋机检替代（2026-11-25 已移入回收站） |

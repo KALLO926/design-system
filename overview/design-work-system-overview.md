@@ -33,8 +33,8 @@
 - `taste-skill`：因 `One section per screen`（PPT 冲突）、`sand|sky|sage` 底色发牌与 `Stop` Hook 冲突，移出常驻流水线，仅按需取用 `copy-lint` / `copy-voice`。
 - `ui-ux-pro-max`：移出常驻，降为点名查 UX/图表/图标词典，禁用 `--design-system` 与 `MASTER.md`。
 - `web-design-guidelines`：规则已由 `better-interface` 覆盖并消除 `WebFetch` / `Title Case` 冲突，降为备查。
-- `local_self_hosted_fonts`：与契约单文件中文降级系统栈规则冲突，标记待清退。
-- Emil 动效组（9 目录）：建议参照 `gsap` 合并为单个 `emil-motion` 技能（正文路由＋`references/`）。
+- `local_self_hosted_fonts`：与契约单文件中文降级系统栈规则冲突，**已清退**（2026-11-25 移入回收站）。
+- `emil-motion`：Emil 动效组**已合并（9 合 1，点名参考）**，正文为场景路由、原 9 个技能全文存 `references/`。
 
 ## 四、任务流与分级（L0 / L1a / L1b / L2）
 
